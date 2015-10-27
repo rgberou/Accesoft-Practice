@@ -1,12 +1,13 @@
-(function(){
+
 	var person{
 		lastname:"Berou",
-		firstname:"Argie";
+		firstname:"Argie"
 	};
-
 	var app=angular.module('myapp',[]);
 
 	app.controller('listCtrl',function(){
 		this.student=person;
 	});
-});
+
+	
+

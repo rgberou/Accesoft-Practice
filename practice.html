@@ -1,0 +1,24 @@
+<html>
+	<head></head>
+	<title>JSpractice</title>
+
+	<body >
+		<!-- JS references-->
+		<script type="text/javascript" src="JS/angular.min.js"></script>
+		<script type="text/javascript" src="JS/connect.js"></script>
+		<!-- end-->
+
+		<!-- my app controller-->
+		
+		<form ng-app="myapp" ng-controller="FormCtrl">
+			<input ng-model="firstname">
+			<input ng-model="lastname">
+
+			<h1>{{lastname}}<span ng-hidden="false">{{message}}</span>{{firstname}}</h1>
+		
+		</form>
+		
+		<!-- end-->
+
+	</body>
+</html>

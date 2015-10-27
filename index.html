@@ -1,0 +1,19 @@
+<html ng-app>
+	<head>
+		<meta charset="utf-8">
+		<title>Practice</title>
+	</head>
+	<body>
+		<h1 ng-controller="MessageCtrl">{{hi}}</h1>
+	
+		<script src="angular.min.js"></script>
+
+		<script type="text/javascript">
+			function MessageCtrl($scope){
+				$scope.hi="My message";
+			}
+		</script>
+	
+	</body>
+
+</html>

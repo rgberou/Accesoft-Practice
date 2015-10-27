@@ -5,8 +5,8 @@
 	};
 	var app=angular.module('myapp',[]);
 
-	app.controller('listCtrl',function(){
-		this.student=person;
+	app.controller('listCtrl',function($scope){
+		
 	});
 
 	
